@@ -9,6 +9,7 @@
 #include <mutex>
 #include <condition_variable>
 #include <opencv2/opencv.hpp>
+#include <atomic>
 #include "common.hpp"
 
 using namespace std;

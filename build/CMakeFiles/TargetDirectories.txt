@@ -1,0 +1,4 @@
+/workspaces/M1_IPC_THREADS_PARALELISMO/build/CMakeFiles/img_sender.dir
+/workspaces/M1_IPC_THREADS_PARALELISMO/build/CMakeFiles/img_worker.dir
+/workspaces/M1_IPC_THREADS_PARALELISMO/build/CMakeFiles/edit_cache.dir
+/workspaces/M1_IPC_THREADS_PARALELISMO/build/CMakeFiles/rebuild_cache.dir
