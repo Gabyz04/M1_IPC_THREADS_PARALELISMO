@@ -41,15 +41,31 @@ Isso gera os executáveis:
 
 ---
 
-## 🖼️ Criar imagem de teste
+## 🖼️ Criar ou usar imagem de teste
 
-Você pode usar uma imagem real em escala de cinza ou gerar uma artificial com gradiente:
+Você pode:
 
-```bash
-convert -size 256x256 gradient: entrada.png
-```
+1. **Gerar uma imagem artificial** (gradiente 256x256) com:
 
-Isso cria `entrada.png` dentro de `build/`.
+   ```bash
+   convert -size 256x256 gradient: entrada.png
+   ```
+
+   Isso cria `entrada.png` dentro de `build/`.
+
+2. **Usar uma imagem existente**
+   Basta copiar ou mover sua imagem para a pasta `build/` com o nome `entrada.png`.
+   Exemplo:
+
+   ```bash
+   cp /caminho/da/sua/imagem.png build/entrada.png
+   ```
+
+   Em seguida, utilize normalmente nos comandos:
+
+   ```bash
+   ./img_sender /tmp/imgpipe entrada.png
+   ```
 
 ---
 
